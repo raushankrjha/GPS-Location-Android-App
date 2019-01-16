@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "885795171014",
+    "firebase_url": "https://gpsloaction-c6f28.firebaseio.com",
+    "project_id": "gpsloaction-c6f28",
+    "storage_bucket": "gpsloaction-c6f28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885795171014:android:f0bcdd6ad4a9f127",
+        "android_client_info": {
+          "package_name": "com.rjha.gpsloaction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885795171014-0qa03nf050l5k90t09fvhqgjq0ttee6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rjha.gpsloaction",
+            "certificate_hash": "f30b08c3905c391a322e74b5232d0376492d2fa7"
+          }
+        },
+        {
+          "client_id": "885795171014-m9cgp4ksurm88sthr38dkmb7lkiabhv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtVe-xYzFz3Hph4HkRX2ZpbHBY90uNlYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885795171014-m9cgp4ksurm88sthr38dkmb7lkiabhv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

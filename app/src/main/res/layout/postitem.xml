@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="3dp"
+    android:background="#1d1d1d"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <TextView
+      android:text="Raushan"
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/vname"
+        />
+
+                    <TextView
+                        android:layout_margin="1dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="raushanjha465@gmail.com"
+                        android:textStyle="normal"
+                       android:textColor="@android:color/white"
+                        android:maxLines="1"
+
+                        android:id="@+id/vemail"
+
+                        />
+
+                    <TextView
+                        android:textColor="@android:color/white"
+                        android:text="dbzjsfdj"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/vaddress"
+                        android:textSize="14dp" />
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/mapview"
+        android:text="View On Map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+
+
+
+
+
+
+
+

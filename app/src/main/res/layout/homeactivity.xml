@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="24dp"
+    android:paddingLeft="24dp"
+    android:background="#e60e171e">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp">
+
+           <!-- <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/lco"
+                android:padding="4dp"
+                />
+-->
+            <TextView
+                android:id="@+id/locationtext"
+                android:background="@drawable/bkgd_transparent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textAllCaps="false"
+                />
+
+
+            <Button
+                android:id="@+id/bttnsend"
+                android:background="@drawable/bkgd_transparent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Send Location"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textAllCaps="false"
+                />
+            <Button
+                android:visibility="gone"
+                android:id="@+id/bttnalluser"
+                android:background="@drawable/bkgd_transparent1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View On Map"
+                android:clickable="true"
+                android:textColor="#ffffff"
+                android:padding="16dp"
+                android:textSize="18sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textAllCaps="false"
+                />
+            <TextView
+                android:visibility="gone"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:hint="Name"
+                android:textColorHint="#212121"
+                android:maxLines="1"
+                android:id="@+id/editText_name"
+                android:background="@drawable/bkgrd_redlogin1"
+                android:layout_marginTop="13dp"
+                android:drawablePadding="16dp"/>
+            <TextView
+                android:visibility="gone"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:drawablePadding="16dp"
+                android:hint="Email Address"
+                android:textColorHint="#1d1d1d"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/bkgrd_redlogin1"
+                android:id="@+id/editText_emailAddress"
+                />
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:hint="Mobile"
+                android:textColorHint="#212121"
+                android:maxLines="1"
+                android:id="@+id/editText_mobile"
+                android:inputType="number"
+                android:background="@drawable/bkgrd_redlogin1"
+                android:layout_marginTop="16dp"
+                android:drawablePadding="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
